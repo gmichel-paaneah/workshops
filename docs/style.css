@@ -58,3 +58,13 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+td.circleci {
+  padding-top: 10px;
+  width: 100px;
+  border-right: none;
+}
+
+td.workshop {
+  border-left: none;
+}
