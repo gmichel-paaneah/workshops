@@ -7,7 +7,7 @@ This repo is for setting up the user accounts for each student.
 ```
 email_list = ["test@hashicorp.com","example@hashicorp.com"]
 ```
-2. Use the python script in the [setup_scripts](./setup_scripts) directory to generate a list of usernames
+2. Use the python script in the [setup_scripts](./setup_scripts/strip_emails) directory to generate a list of usernames
 3. Set the resulting list as the 'users' value in the terraform.tfvars file in the [terraform](./terraform) directory before running `terraform apply`
 
 ### Create Student Accounts
@@ -22,8 +22,8 @@ users = ["student1", "student2", ...]
 
 ### Enable Enterprise Features for all Student TFC Orgs
 1. Gather the names of all TFC Orgs that students have created (a shared Google Sheet is easiest)
-2. Paste the list (one Org name per line) in the 'orgs_to_update.txt' file in the [tfc_enable_features](./tfc_enable_features) directory and save
-3. Execute the update_permissions.sh script in the tfc_enable_features directory like so:
+2. Paste the list (one Org name per line) in the 'orgs_to_update.txt' file in the [tfc_enable_features](./setup_scripts/tfc_enable_features) directory and save
+3. Execute the update_permissions.sh script in the [tfc_enable_features](./setup_scripts/tfc_enable_features)  directory like so:
 ```
 ./update_permissions.sh < orgs_to_update.txt
 ```
