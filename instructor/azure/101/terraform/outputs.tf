@@ -20,4 +20,3 @@ output "ARM_CLIENT_ID" {
 output "ARM_CLIENT_SECRET" {
   value = azuread_service_principal_password.app.value
 }
-
