@@ -976,7 +976,7 @@ name: chapter-2-exercise-1
 .center[.lab-header[Chapter 2: Exercise 1]]
 ### Create Resource Group
 * Write Terraform code to create a resource group
-* Explicitely state the azurerm provider using the provider syntax
+* Explicitly state the azurerm provider using the provider syntax
 
 https://www.terraform.io/intro/index.html  
 https://www.terraform.io/docs/commands/init.html  
@@ -1427,7 +1427,7 @@ https://www.terraform.io/docs/providers/azurerm/d/client_config.html
 
 https://www.terraform.io/docs/providers/template/d/file.html  
 
-.footnote[.right[[s](https://github.com/hashicorp/workshopss/tree/master/solutions/azure/oss+ent101/terraform/chapter4)]]
+.footnote[.right[[s](https://github.com/hashicorp/workshops/tree/master/solutions/azure/terraform/oss+ent101/chapter4)]]
 
 ---
 name: chapter-4-review
