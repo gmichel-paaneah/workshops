@@ -1844,9 +1844,9 @@ Local executation occurs on your local laptop and Terraform Enterprise is only u
 name: chapter-6-exercise-1
 .center[.lab-header[Chaper 6: Exercise 1]]
 ### Create Terraform Enterprise User and Organization
-* Create a Terraform Enterprise trial account.
-* Create a new organization.
-* Upgrade the organization to Enterprise trial via Settings -> General -> Request Preview Access.
+* Sign Up for a Terraform Cloud free account.
+* Create a new Organization.
+* Provide the name of your Organization to your Instructor so that Enterprise features may be enabled.
 * Create an API key for your user.
 
 https://app.terraform.io/signup/account
