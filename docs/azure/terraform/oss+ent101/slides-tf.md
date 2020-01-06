@@ -42,7 +42,7 @@ The Slide Deck
 .center[
 Follow along on your own computer at this link:
 
-https://bit.ly/2QKMReC
+https://bit.ly/2FkPHSg
 =========================
 ]
 
