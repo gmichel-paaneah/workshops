@@ -1535,7 +1535,7 @@ Additionally, HashiCorp now offers the HashiCorp Cloud as a free option to store
 name: chapter-5-exercise-1
 .center[.lab-header[Chapter 5: Exercise 1]]
 ### Modules
-* Create a subfolder called "modules" and another subfolder called "networking"
+* Create a subfolder called "modules" and another subfolder within that one called "networking"
 * Write a variables.tf, main.tf, and outputs.tf file in this folder and move the code for all of the azure networking components from the root module into here.
 * Write module code in the root module to call this new module and remove the networking code from the root.
 
