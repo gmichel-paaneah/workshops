@@ -985,7 +985,7 @@ https://www.terraform.io/docs/commands/apply.html
 https://www.terraform.io/docs/providers/azurerm/r/resource_group.html  
 https://www.terraform.io/docs/configuration/providers.html  
 
-`HINT 1: If you want your code to be completely reusable, use random_id to generate unique names. For instance, we could create a resource "random_id" "project_name" and use intepolation to pass ${random_id.project_name.hex} as the input to any name fields. https://www.terraform.io/docs/providers/random/r/id.html`
+`HINT 1: If you want your code to be completely reusable, use random_id to generate unique names. For instance, we could create a resource "random_id" "project_name" and use interpolation to pass ${random_id.project_name.hex} as the input to any name fields. https://www.terraform.io/docs/providers/random/r/id.html`
 <br><br><br>
 .footnote[.right[[s](https://github.com/hashicorp/workshops/tree/master/solutions/azure/terraform/oss+ent101/chapter2)]]
 
@@ -1291,11 +1291,11 @@ Locals provide a method to store data which doesn't need to be exposed as a vari
 name: chapter-3-exercise-3
 .center[.lab-header[Chapter 3: Exercise 3]]
 ### Variables
-* Create variables.tf file with a variables for Azure location, Tags, and Vault Binary URL.
+* Create variables.tf file with a variables for Azure location, Tags, and Vault URL.
 * Set defaults for each variable as follows:
  * location = eastus
  * tags = {}
- * vault binary url = https://releases.hashicorp.com/vault/1.3.0+ent/vault_1.3.0+ent_linux_amd64.zip
+ * vault_url = https://releases.hashicorp.com/vault/1.3.0+ent/vault_1.3.0+ent_linux_amd64.zip
 * Update main.tf file to use Azure location variable for the Resource Group.
 
 https://www.terraform.io/docs/configuration/variables.html  
