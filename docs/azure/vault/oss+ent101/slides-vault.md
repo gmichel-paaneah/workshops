@@ -356,7 +356,7 @@ https://www.vaultproject.io/docs/commands/token/lookup.html
 `HINT 3: Vault Enterprise will shutdown after 30 minutes without a license file and error out during the unseal process. If this occurs to you, run "sudo service vault restart`
 
 <br><br><br>
-.footnote[.right[[s](https://github.com/hashicorp/se-terraform-vault-workshop/tree/master/solutions/azure/vault/oss+ent101/chapter2)]]
+.footnote[.right[[s](https://github.com/hashicorp/workshops/tree/master/solutions/azure/vault/oss+ent101/chapter2)]]
 
 ---
 name: chapter-2-exercise-2
@@ -369,7 +369,7 @@ https://www.vaultproject.io/api/system/license.html
 
 `HINT 1: The license can also be installed from the UI or by writing to the sys/license path with text=<license>`
 <br><br><br>
-.footnote[.right[[s](https://github.com/hashicorp/se-terraform-vault-workshop/tree/master/solutions/azure/vault/oss+ent101/chapter2)]]
+.footnote[.right[[s](https://github.com/hashicorp/workshops/tree/master/solutions/azure/vault/oss+ent101/chapter2)]]
 ???
 
 ---
@@ -824,7 +824,7 @@ https://www.vaultproject.io/docs/auth/azure.html
 
 `HINT 2: Query the resource https://management.azure.com/`
 <br><br>
-.footnote[.right[[s](https://github.com/hashicorp/se-terraform-vault-workshop/tree/master/solutions/azure/vault/oss+ent101/chapter4)]]
+.footnote[.right[[s](https://github.com/hashicorp/workshops/tree/master/solutions/azure/vault/oss+ent101/chapter4)]]
 
 ---
 name: chapter-4-review
@@ -880,7 +880,7 @@ https://www.vaultproject.io/docs/secrets/databases/mysql-maria.html
 
 `HINT 2: Azure requires the username to include the hostname of the server`
 <br><br>
-.footnote[.right[[s](https://github.com/hashicorp/se-terraform-vault-workshop/tree/master/solutions/azure/vault/oss+ent101/chapter5)]]
+.footnote[.right[[s](https://github.com/hashicorp/workshops/tree/master/solutions/azure/vault/oss+ent101/chapter5)]]
 
 ---
 name: chapter-5-exercise-2
@@ -893,7 +893,7 @@ name: chapter-5-exercise-2
 https://www.vaultproject.io/docs/concepts/lease.html  
 https://www.vaultproject.io/api/system/leases.html  
 <br><br>
-.footnote[.right[[s](https://github.com/hashicorp/se-terraform-vault-workshop/tree/master/solutions/azure/vault/oss+ent101/chapter5)]]
+.footnote[.right[[s](https://github.com/hashicorp/workshops/tree/master/solutions/azure/vault/oss+ent101/chapter5)]]
 
 ---
 name: chapter-5-review
@@ -973,7 +973,7 @@ https://www.vaultproject.io/docs/concepts/policies.html
 
 https://www.vaultproject.io/docs/auth/azure.html  
 <br><br><br>
-.footnote[.right[[s](https://github.com/hashicorp/se-terraform-vault-workshop/tree/master/solutions/azure/vault/oss+ent101/chapter6)]]
+.footnote[.right[[s](https://github.com/hashicorp/workshops/tree/master/solutions/azure/vault/oss+ent101/chapter6)]]
 ---
 name: chapter-6-review
 📝 Chapter 6 Review
@@ -1024,7 +1024,7 @@ Use the Vault UI to:
 
 https://www.vaultproject.io/docs/secrets/transit/index.html  
 <br><br><br>
-.footnote[.right[[s](https://github.com/hashicorp/se-terraform-vault-workshop/tree/master/solutions/azure/vault/oss+ent101/chapter7)]]
+.footnote[.right[[s](https://github.com/hashicorp/workshops/tree/master/solutions/azure/vault/oss+ent101/chapter7)]]
 
 ---
 name: chapter-7-review
