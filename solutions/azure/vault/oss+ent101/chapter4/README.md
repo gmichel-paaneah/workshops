@@ -1,11 +1,11 @@
 ## Chapter 4 Solutions
 
 * Enable userpass auth
-`vault auth enable userpass`
+`vault auth enable userpass`<br>
 `vault write auth/userpass/users/mitchellh password=foo`
 
 * Enable azure auth
-`vault auth enable azure`
+`vault auth enable azure`<br>
 `vault write auth/azure/config \
   tenant_id=${data.azurerm_client_config.current.tenant_id} \
   resource=https://management.azure.com \
